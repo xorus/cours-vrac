@@ -32,7 +32,7 @@ Dans une jointure externe (OUTER JOIN), on retrouve aussi les tuples orphelins.
 Par exemple :
 
 | emp did | dept DID |
-|--|--|
+|---|---|
 | Smith 3 | SALES 3 |
 | James NULL | NULL NULL |
 | NULL NULL | 4 OPERATION |
@@ -45,7 +45,7 @@ Ici, le EMP.DID de James était NULL, sql joint donc des NULL. Dans une jointure
 ## Tableau jointure d'état / jointure naturelle
 
 | | theta | naturel |
-|--|--|--|
+|---|---|---|
 |inner|T join S1 ON ... | T natural join S1 |
 |outer|T outer join S1 ON...| T natural outer join S1 |
 
