@@ -9,7 +9,7 @@ On retrouve les fonctions :
 - `SUM()`
 - `MIN()`
 - `MAX()`
-- `AVERAGE()`
+- `AVG()`
 - `COUNT()`
 
 Utilisation par exemple :
